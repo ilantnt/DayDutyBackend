@@ -1,0 +1,14 @@
+{
+  "DB": {
+    "User": "postgres",
+    "Password": "Baily0802",
+    "Database": "toranim.db",
+    "Table": "toranim"
+  },
+  "SQL": {
+    "SQL_Search_if_Exist": "Select * from {0} where date='{1}'",
+    "SQL_Insert_Query": "insert into {0} values ('{1}','{2}')",
+    "SQL_Update_Query": "update {0} set toran='{1}' where date='{2}'",
+    "SQL_GetToranim_Query": "select * from {0} where date in {1}"
+  }
+}
